@@ -1,0 +1,214 @@
+.slider{
+    position: relative;
+}
+.slider-banner img{
+    width: 100%;
+    height: auto;
+}
+
+.slider-title{
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 90px;
+    padding: 0;
+    margin-bottom: 0;
+}
+.slider-title strong{
+    color: var(--primary-color);
+}
+.slider__description {
+    font-size: 18px;
+    color: #8f8f8f;
+    margin-top: auto;
+}
+.slider-btn{
+    /* margin-top: 36px; */
+}
+.slider-btn a{
+    font-size: 16px;
+    color: var(--black-color);
+    font-weight: 900;
+    border-bottom: 2px solid var(--primary-color);
+    line-height: 33px;
+}
+.slider-content__content{
+    position: absolute;
+    top: 168px;
+    left: unset;
+    letter-spacing: 0.5px;
+    line-height: 3;
+}
+.slider__controller{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+.boc-slider{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-56%);
+    max-width: 100%;
+    width: 100%;
+}
+.slider__controller-left{
+    width: 0;
+    height: 0;
+    border-top: 60px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 50px solid #fff;
+    position: relative;
+    cursor: pointer;
+}
+.slider__controller-left:hover{
+    width: 0;
+    height: 0;
+    border-top: 60px solid var(--primary-color);
+    border-right: 10px solid transparent;
+    border-left: 50px solid var(--primary-color);
+    position: relative;
+    cursor: pointer;
+}
+
+.slider__controller-right{
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid #fff;
+    border-right: 50px solid #fff;
+    border-left: 10px solid transparent;
+    cursor: pointer;
+}
+.slider__controller-right:hover{
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid var(--primary-color);
+    border-right: 50px solid var(--primary-color);
+    border-left: 10px solid transparent;
+    cursor: pointer;
+}
+.border-button-right{
+    font-size: 25px;
+    line-height: 60px;
+    margin: 0 20px;
+}
+.border-button-left{
+    position: absolute;
+    top: -49px;
+    right: 19px;
+    font-size: 25px;
+}
+.slider__controller-left:hover .border-button-left{
+    color: var(--white-color);
+}
+.slider__controller-right:hover .border-button-right{
+    color: var(--white-color);
+}
+
+
+.slider-btn-left {
+    width: 0;
+    height: 0;
+    border-top: 60px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 50px solid #fff;
+}
+
+.slider-btn-left:hover {
+    width: 0;
+    height: 0;
+    border-top: 60px solid #0ca8c9;
+    border-right: 10px solid transparent;
+    border-left: 50px solid #0ca8c9;
+}
+
+
+.slider-btn-right {
+    width: 0;
+    height: 0;
+    border-top: 60px solid #fff;
+    border-right: 50px solid #fff;
+    border-left: 10px solid transparent;
+}
+.slider-btn-right:hover{
+    width: 0;
+    height: 0;
+    border-top: 60px solid #0ca8c9;
+    border-right: 50px solid #0ca8c9;
+    border-left: 10px solid transparent;
+}
+.slider-btn-item:hover{
+    color: rgb(255, 255, 255);
+}
+
+/* .slider-btn{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+} */
+
+.slider-btn-item-L{
+
+    float: left;
+    margin-left: 20px;
+    position: relative;
+}
+.slider-btn-item-R{
+    float: right;
+    margin-right: 20px;
+    position: relative;
+}
+
+.slider-btn-icon-L{
+    position: absolute;
+    top: 18px;
+    left: 19px;
+    right: 0;
+    font-size: 25px !important;
+}
+.slider-btn-icon-R{
+    position: absolute;
+    top: 18px;
+    left: 31px;
+    right: 0;
+    font-size: 25px !important;
+}
+
+
+.fade {
+    z-index: 2;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+
+  .slider-dot{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-100%, -127%);
+  }
