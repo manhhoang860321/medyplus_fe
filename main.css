@@ -681,6 +681,9 @@ a .namepage{
     line-height: 24px;
 
 }
+.fact-item-text:hover{
+    color: #0ca8c9;
+}
 .fact-item-description{
     color: #8f8f8f;
     font-size: 14px;
@@ -753,6 +756,9 @@ a .namepage{
     top: 48%;
     transform: translateY(-48%);
     left: 30px;
+}
+.banner-container-left-content-countdown{
+
 }
 .banner-container-left-content-countdown{
     display: flex;
@@ -851,6 +857,9 @@ a .namepage{
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
+}
+.banner-container-bottom-content a span{
+    color: #000;
 }
 
 .banner-container-bottom-content p{
