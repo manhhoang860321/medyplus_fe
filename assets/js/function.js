@@ -193,7 +193,7 @@ jQuery(document).ready(function($){
     }
     
   
-      function showSlides(n){ 
+      function showSlides(n){
 
         var i;
         var slides = document.getElementsByClassName("slider-banner"); //get all slider
@@ -212,7 +212,39 @@ jQuery(document).ready(function($){
         dots[slideIndex-1].className += " active";
     }
     //end: slider
+   // begin: slider-product
+   function plusProduct(n) {
+    showProduct(slideIndex += n);
+}
 
+
+  function showProduct(n){
+
+    var i;
+    var slides = document.getElementsByClassName("list_product"); //get all slider
+    var dots = document.getElementsByClassName("dot"); // get all dot
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+
+    // for (i = 0; i < slides.length; i++) {
+    //     slides[i].style.display = "block";
+    // }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+
+    for (i = 0; i < dots.length; i++){
+        dots[i].className = dots[i].className.replace("active", "");
+    }
+    // slides[slideIndex-0].style.display = "block";
+    slides[slideIndex-1].style.display = "block";
+    // slides[slideIndex-2].style.display = "block";
+
+    dots[slideIndex-1].className += " active";
+    // dots[slideIndex-2].className += " active";
+
+}
+//end: slider-product
 
 
 

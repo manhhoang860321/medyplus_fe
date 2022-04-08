@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
     <link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -26,144 +26,335 @@
     <link rel="stylesheet" href="assets/js/slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="assets/font/themify-icons-font/themify-icons/themify-icons.css">
     <title>Trainning</title>
+    
 </head>
 <body>
     <div>
     <div class="container">
-        <div class="header">
-            <div class="header-top-t">
-                <div class="header-top">
-                    <div class="header-contact">
-                        <ul>
-                            <div class="contact">
-                                <a class="local" href="#"><img src="icon/local.png" alt=""></a>
-                                    <div>
-                                    <a href="#"><p class="texthind">Find us</p></a>
-                                    <a href="#"><p>325 admiral unit, North cost, USA</p></a>
-                                    </div>
-    
-                            </div>
-                            <div class="contact">
-                                <div>
-                                    <a href="#"><img src="icon/gmail.png" alt=""></a>
-                                </div>
-                                <div>
-                                    <a href="#"><p class="texthind">Email Us</p></a>
-                                    <a href="#"><p>admin@medyplus.com</p></a>
-                                </div>
-                            </div>
-                            <div class="contact">
-                                <div>
-                                    <a href="#"><img src="icon/call.png" alt=""></a>
-                                </div>
-                                <div>
-                                    <a href="#"><p class="texthind">Call Us Now</p></a>
-                                    <a href="#"><p>002 - 0100 843 1112</p></a>
-                                </div>
-                            </div>
-                        </ul>
+        
+<!-- ======================Header Container======================== -->
+<div class="header">
+    <!-- ----------------------- header-top ----------------------- -->
+    <div class="header-top">
+        <div class="container">
+            <div class="container-wrap">
+                <div class="header-top-contro">
+                    <p>Support</p>
+                    <span class="fa fa-bars" aria-hidden="true"></span>
+                </div>
+
+                <div class="header-top-content">
+                    <div class="header-top-address">
+                        <div class="header-top-img ">
+                           <span> <i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="header-top-text header-top-text1">
+                            <span class="header__address-address-item-text-title">Find Us <br></span>
+                            <a href="#">325 admiral unit, North cost, USA</a>
+                        </div>
                     </div>
-                    <div class="langue">
+                    <div class="header-top-email">
+                        <div class="header-top-img">
+                            <span class="fa fa-envelope"></span>
+                        </div>
+                        <div class="header-top-text header-top-text2">
+                            <span class="header__address-address-item-text-title">Email Us <br></span>
+                            <a href="#">admin@medyplus.com</a>
+                        </div>
+                    </div>
+                    <div class="header-top-call">
+                        <div class="header-top-img header-top-text3">
+                            <span class="fa fa-phone" aria-hidden="true"></span>
+                        </div>
+                        <div class="header-top-text">
+                            <span class="header__address-address-item-text-title">Call Us Now  <br></span>
+                            <a href="#">002 - 0100 843 1112</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="setting-translate">
+                    <div class="current_translate">
+                        <div class="translate">
+                            <img src="icon/england.png">
+                            <span class="translate-txt">English</span>
+                            <span class="fa fa-chevron-down"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="more_translate">
+                        <div class="translate" data-value='简体中文'>
+                            <img src="icon/england.png">
+                          <span class="translate-txt">简体中文</span>      
+                        </div>
                         
-                        <form action="/action_page.php">
-                            <img src="icon/england.png" alt="">
-                            <select  name="langue">
-                              <option value="volvo">English</option>
-                              <option value="saab">Saab</option>
-                              <option value="opel">Opel</option>
-                              <option value="audi">Audi</option>
+                        <div class="translate selected" data-value='English'>
+                            <img src="icon/england.png">
+                          <span class="translate-txt">English<span> (US)</span></span>      
+                        </div>
+                       
+                        
+                        <div class="translate" data-value='Deutsch'>
+                            <img src="icon/england.png">
+                          <span class="translate-txt">Deutsch</span>      
+                        </div>
+                        
+                        <div class="translate" data-value='Español'>
+                            <img src="icon/england.png">
+                          <span class="translate-txt">Español</span>      
+                        </div>  
+                        
+                        
+                        <div class="translate" data-value='Français'>
+                            <img src="icon/england.png">
+                          <span class="translate-txt">Français</span>      
+                        </div>
+                       
+                        
+                        <div class="translate" data-value="Português(PR)">
+                            <img src="icon/england.png">
+                          <span class="translate-txt">Português<span> (PR)</span></span>      
+                        </div> 
+                        
+                        <div class="translate" data-value="العربية(SA)">
+                            <img src="icon/england.png">
+                          <span class="translate-txt">العربية <span> (SA)</span></span>      
+                        </div> 
+                    </div>
+                </div>
+                <!-- end: translate -->
+
+                <div class="header-top-content-repson">
+                    <div class="header-top-address">
+                        <div class="header-top-img ">
+                           <span> <i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="header-top-text header-top-text1">
+                            <span class="header__address-address-item-text-title">Find Us <br></span>
+                            <span class="header__address-address-item-text-description">325 admiral unit, North cost, USA</span>
+                        </div>
+                    </div>
+                    <div class="header-top-email">
+                        <div class="header-top-img">
+                            <span class="fa fa-envelope"></span>
+                        </div>
+                        <div class="header-top-text header-top-text2">
+                            <span class="header__address-address-item-text-title">Email Us <br></span>
+                            <span class="header__address-address-item-text-description">admin@medyplus.com</span>
+                        </div>
+                    </div>
+                    <div class="header-top-call">
+                        <div class="header-top-img header-top-text3">
+                            <span class="fa fa-phone" aria-hidden="true"></span>
+                        </div>
+                        <div class="header-top-text">
+                            <span class="header__address-address-item-text-title">Call Us Now  <br></span>
+                            <a href="tel:002 - 0100 843 1112">002 - 0100 843 1112</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------- header-middle ----------------------- -->
+    <div class="header-middle">
+        <div class="container">
+            <div class="header-middle-container">
+                <div class="header-middle-logo">
+                    <img src="assets/image/img/Logo.png" alt="">
+                </div>
+                <div class="header-middle-right">
+                    <!-- search -->
+                    <div class="header__search-search-input show">
+                        <form autocomplete="off" action="" class="header__search-search-input-search-form hide ">
+                            <select class="header__search-search-input-search-select" name="" id="">
+                                <option value="1">All Categories</option>
+                                <option value="3">Sexual Health</option>
+                                <option value="4">Cosmestics</option>
                             </select>
+                            <div class="header__search-search-input-search-wrap autocompelte">
+                                <input id="myInput" placeholder="Search for product..." class="header__search-search-input-search" type="text">
+                            </div>
+                            <button class="header__search-search-input-icon-img">
+                                <img src="assets/image/img/search.png" alt="" class="header__search-search-input-incon-search">
+                            </button>
+                            <span class="icon-select">
+                                <i class="fa fa-caret-down"></i>
+                            </span>
                         </form>
                     </div>
-    
+                    <div class="header__search-search-input-contro-320 show">
+                        <select class="header__search-search-input-search-select2" name="" id="">
+                            <option value="1">All Categories</option>
+                            <option value="3">Sexual Health</option>
+                            <option value="4">Cosmestics</option>   
+                        </select>
+                    </div>
+             
+                    <!-- setting  -->
+                    <div class="header-middle-setting">
+                        <div class="header-middle-setting-img">
+                            <img src="assets/image/img/setting-header-icon.png" alt="setting">
+                            <div class="header-middle-setting-content">
+                                <p class="header-middle-setting-text">setting 1</p>
+                                <p class="header-middle-setting-text">setting 2</p>
+                                <p class="header-middle-setting-text">setting 3</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- cart  -->
+                    <div class="header-middle-cart">
+                        <span class="header-middle-cart-text">20</span>
+
+                        <label for="check-cart" class="header-middle-cart-img">
+                            <img src="assets/image/img/cart.png"  alt="cart">
+                        </label>
+
+                        <input  type="checkbox" hidden id="check-cart" class="check-cart">
+
+                        <label for="check-cart" class="list-cart" id="list-cart">
+                            <h3 class="list-cart-title"> Sản Phẩm Mới Thêm</h3>
+                            <ul class="list-cart-content">
+
+                                <li class="cart-item">
+                                    <a href="#">
+                                        <h3>ITEM 1</h3>
+                                    </a>
+                                </li>
+                                <li class="cart-item">
+                                    <a href="#">
+                                        <h3>ITEM 2</h3>
+                                    </a>
+                                </li>
+                                <li class="cart-item">
+                                    <a href="#">
+                                        <h3>ITEM 3</h3>
+                                    </a>
+                                </li>
+                                <li class="cart-item">
+                                    <a href="#">
+                                        <h3>ITEM 4</h3>
+                                    </a>
+                                </li>
+                        </label>
+
+
+                    </div>
+                </div>
+                <div class="header-middle-search-320 autocompelte2 ">
+                    <input type="text" id="myInput2"  placeholder="Search for product...">
+                    <button class="header__search-search-input-icon-img-320">
+                        <img src="assets/image/img/search.png" alt="" class="header__search-search-input-incon-search">
+                    </button>
                 </div>
             </div>
-            <div class="header-middle-m">
-            <div class="header-middle">
-                <div class="header-logo">
-                    <img src="icon/logo.png" alt="">
-                    <ul>
-                    <li class="name-page">
-                    <a class="namepage" href="#">MEDY</a>
-                    <a id="pagename" class="namepage" href="#"> PLUS</a>
-                    </li>
-                    <li>
-                    <a class="namemini" href="#">chemis warehouse</a>
-                    </li>
+        </div>
+    </div>
+    <!-- ----------------------- header-bottom ----------------------- -->
+    <div class="header-bottom">
+        <div class="container ">
+            <div class="header-bottom-container">
+                <div class="header-bottom-controller">
+                    <span class="header-bottom-controller-img"><img src="assets/image/img/menu.png" alt=""></span>
+                    <span id="ahi" class="header-bottom-controller-text">categoris</span>
+                </div>
+                <div class="header-bottom-contro">
+                    <span class=" fa fa-bars" aria-hidden="true"></span>
+                </div>
+                <div class="header-bottom-nav">
+                    <ul class="header__navbar-nav-list">
+                        <li class="header__navbar-nav-item">
+                            <a href="#" class="header__navbar-nav-item-link">HOME</a>
+                        </li>
+                        <li class="header__navbar-nav-item">
+                            <a href="#" class="header__navbar-nav-item-link">ABOUT</a>
+                        </li>
+                        <li class="header__navbar-nav-item">
+                            <a href="#" class="header__navbar-nav-item-link">SERVICES</a>
+                        </li>
+                        <li class="header__navbar-nav-item">
+                            <a href="#" class="header__navbar-nav-item-link">BLOG</a>
+                        </li>
+                        <li class="header__navbar-nav-item">
+                            <a href="#" class="header__navbar-nav-item-link">PAGE</a>
+                        </li>
+                        <li class="header__navbar-nav-item">
+                            <a href="#" class="header__navbar-nav-item-link">CONTACT</a>
+                        </li>
                     </ul>
                 </div>
+                <ul class="header__navbar-nav-list-contro">
+                    <li class="header__navbar-nav-item">
+                        <a href="#" class="header__navbar-nav-item-link">HOME</a>
+                    </li>
+                    <li class="header__navbar-nav-item">
+                        <a href="#" class="header__navbar-nav-item-link">ABOUT</a>
+                    </li>
+                    <li class="header__navbar-nav-item">
+                        <a href="#" class="header__navbar-nav-item-link">SERVICES</a>
+                    </li>
+                    <li class="header__navbar-nav-item">
+                        <a href="#" class="header__navbar-nav-item-link">BLOG</a>
+                    </li>
+                    <li class="header__navbar-nav-item">
+                        <a href="#" class="header__navbar-nav-item-link">PAGE</a>
+                    </li>
+                    <li class="header__navbar-nav-item">
+                        <a href="#" class="header__navbar-nav-item-link">CONTACT</a>
+                    </li>
+                </ul>
 
-                <div class="header-search">
-                    <div class="wrap">
-                        <div class="search">
-                            <div class="search-input">
-                                <form action="">
-                                    <select  name="allcategory">
-                                        <option value="1">All Categories</option>
-                                        <option value="2">Saab</option>
-                                        <option value="3">Opel</option>
-                                        <option value="4">Audi</option>
-                                    </select>
-                                </form>
-                                <span>|</span>
-
-                                <input type="text" id="searchTerm" placeholder="Search for Product..">
-                                <button type="submit" name="aa" class="searchbutton">
-                                <i class="fa fa-search"></i>
-                                </button>
-                            </div>
-                        <div class="setting-scart">
-                            <a href="##">
-                                <img id="setting" src="icon/banhrang.png" alt="">
-                            </a>
-                            <a href="#">
-                                <img id="scart" src="icon/tuixach.png" alt="">
-                                <span id="count">20</span>
-                            </a>
+                <!-- dropdown  -->
+                <ul class="dropdown">
+                    <li class="dropdown-item">
+                        <div id="dropdown-item-contro" class="dropdown-item-contro">
+                            <a href="#">HOME</a>
+                            <span class="dropdown-item-angle fa fa-angle-right"></span>
                         </div>
-
+                        <ul class="dropdown-item-sub">
+                            <li class="dropdown-item-sub-item"><a href="#">HOME 1</a></li>
+                            <li class="dropdown-item-sub-item"><a href="#">HOME 2</a></li>
+                            <li  class="dropdown-item-sub-item"><a href="#">HOME 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-item">
+                        <div class="dropdown-item-contro">
+                            <a href="#">ABOUT</a>
+                            <span class="dropdown-item-angle fa fa-angle-right"></span>
                         </div>
-                     </div>
-
+                    </li>
+                    <li class="dropdown-item">
+                        <div class="dropdown-item-contro">
+                            <a href="#">SERVICES</a>
+                            <span class="dropdown-item-angle fa fa-angle-right"></span>
+                        </div>
+                    </li>
+                    <li class="dropdown-item">
+                        <div class="dropdown-item-contro">
+                            <a href="#">BLOG</a>
+                            <span class="dropdown-item-angle fa fa-angle-right"></span>
+                        </div>
+                    </li>
+                    <li class="dropdown-item">
+                        <div class="dropdown-item-contro">
+                            <a href="#">PAGE</a>
+                            <span class="dropdown-item-angle fa fa-angle-right"></span>
+                        </div>
+                    </li>
+                    <li class="dropdown-item">
+                        <div class="dropdown-item-contro">
+                            <a href="#">CONTACT</a>
+                        </div>
+                    </li>
                     
-
-                    </div>
-                </div>
+                </ul>
             </div>
-            
-
-            </div>
-<!-- ======================Header Container======================== -->
-
-                <div class="header-main-m">
-                    <div class="header-main">
-                        <div class="header-nav-bar">
-                            <div class="dropdown">
-                                        <div class="dropdown-main">
-                                            <a href="#">
-                                                <img src="img/Overflow.png" alt="">
-                                                <a class="cate" href="#">CATEGORIES</a>
-                                            </a>
-                                        </div>
-                                        <div class="dropdown-content">
-                                            <a href="#">Home</a>
-                                            <a href="#">About</a>
-                                            <a href="#">Services</a>
-                                        </div>
-                            </div>
-                            <div class="header-bar">
-                                    <div style="margin: 0;" class="header-bar-item"><a href="#">Home</a></div>
-                                    <div class="header-bar-item"><a href="#">About</a></div>
-                                    <div class="header-bar-item"><a href="#">Services</a></div>
-                                    <div class="header-bar-item"><a href="#">Blog</a></div>
-                                    <div class="header-bar-item"><a href="#">Page</a></div>
-                                    <div class="header-bar-item"><a href="#">Contact</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    <!-- ====================Slider===================== -->
+        </div>
+    </div>
+</div>
+<!-- ====================Slider===================== -->
     <div class="slider">
         <div class="container">
         <div class="container-slider">
@@ -230,7 +421,7 @@
         </div>
         </div>
     </div>
-    <!-- ====================End Slider===================== -->
+<!-- ====================End Slider===================== -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <!------------------------- fact  ------------------------->
@@ -334,35 +525,27 @@
                 <h2 class="top-selling-header-none">PRODUCTS</h2>
                 <h3 class="top-selling-header-block">TOP SELLING</h3>
             </div>
-            <div class="topsell-control">
-                <div  onclick="plusSlides(-1)"  class="topsell__controller-left">
-                    <div class="button-left">
-                        <span class="top-selling-header-controller-icon ti-angle-left" aria-hidden="true"></span>
-                    </div>
-                </div>
-                <div onclick="plusSlides(1)" class="topsell__controller-right">
-                    <div  class="button-right">
-                        <span class="top-selling-header-controller-icon ti-angle-right" aria-hidden="true"></span>
-                    </div>
-                </div>
-
+            <div class="top-selling-header-controller">
+                <!-- <span class="top-selling-header-controller-icon ti-angle-left" aria-hidden="true"></span>
+                <span class="top-selling-header-controller-icon ti-angle-right" aria-hidden="true"></span> -->
             </div>
-        
+            
         </div>
+        
     
     </div>
     </div>
     <!-- product  -->
     <div class="container">
-        <div class="container-product">
-        <div class="list_product">
-            <div class="item-product">
+        <div class="list-product">
+            <div class="slick-product">
+                <div class="item-product">
                     <div class="item-product-image">
                        <a href="#">
                         <img class="img-product" src="assets/image/img/products/Natures Bounty Biotin.png" alt="">
                        </a>
                     </div>
-                <div class="item-product-content">
+                  <div class="item-product-content">
                     <div class="item-product-infor-name">
                         <a class="item-product-content-name">Nature's Bounty Biotin</a>
                     </div>
@@ -373,165 +556,159 @@
                         <span class="item-product-content-price"><strong>$30.00</strong></span>
                     </div>
                 </div>
-          
-            </div>
-            <div class="item-product">
-                <div class="item-product-image">
-                   <a href="#">
-                    <img class="img-product" src="assets/image/img/products/Best Colon Detox Formula.png" alt="">
-                   </a>
+            
+            
+            
                 </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Best Colon Detox Formula  </a>
+                <div class="item-product">
+                    <div class="item-product-image">
+                       <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Centrum For Women.png" alt="">
+                        </a>
                     </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Advanced Colon</a>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Nature's Bounty Biotin</a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">10000 MCG <br> </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price"><strong>$30.00</strong></span>
+                        </div>
                     </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price-del">
-                            <del>$35.00</del>
-                        </span>
-                        <span class="item-product-content-price">
-                            <strong>$30.00</strong>
-                        </span>
-                    </div>
+              
                 </div>
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Natural Factors Vitamin C.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Natural Factors Vitamin C </a>
+                <div class="item-product">
+                    <div class="item-product-image">
+                       <a href="#">
+                        <img class="img-product" src="assets/image/img/products/Best Colon Detox Formula.png" alt="">
+                       </a>
                     </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Blueberry Rasp </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Jarrow Formulas.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Jarrow Formulas  </a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Methylcobalamin </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Best Colon Detox Formula  </a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Advanced Colon</a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price-del">
+                                <del>$35.00</del>
+                            </span>
+                            <span class="item-product-content-price">
+                                <strong>$30.00</strong>
+                            </span>
+                        </div>
                     </div>
                 </div>
-          
-            </div>
-            <div class="item-product">
-                <div class="item-product-image">
-                   <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Centrum For Women.png" alt="">
-                    </a>
+                <div class="item-product">
+                    <div class="item-product-image">
+                        <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Centrum Silver For Men Box.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Best Colon Detox Formula </a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Advanced Colon... <br> </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price-del">
+                                <del>$35.00</del>
+                            </span>
+                            <span class="item-product-content-price">
+                                <strong>$30.00</strong>
+                            </span>
+                        </div>
+                    </div>
+              
                 </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Nature's Bounty Biotin</a>
+                <div class="item-product">
+                    <div class="item-product-image">
+                        <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Natural Factors Vitamin C.png" alt="">
+                        </a>
                     </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">10000 MCG <br> </a>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Natural Factors Vitamin C </a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Blueberry Rasp </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price"><strong>$30.00</strong></span>
+                        </div>
                     </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
+              
                 </div>
-          
-            </div>
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Centrum Silver For Men Box.png" alt="">
-                    </a>
+                <div class="item-product">
+                    <div class="item-product-image">
+                        <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Centrum For Men Both.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Natural Factors Vitamin C</a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Blueberry Rasp...  <br> </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price"><strong>$30.00</strong></span>
+                        </div>
+                    </div>
+              
                 </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Best Colon Detox Formula </a>
+                <div class="item-product">
+                    <div class="item-product-image">
+                        <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Jarrow Formulas.png" alt="">
+                        </a>
                     </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Advanced Colon... <br> </a>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Jarrow Formulas  </a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Methylcobalamin </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price"><strong>$30.00</strong></span>
+                        </div>
                     </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price-del">
-                            <del>$35.00</del>
-                        </span>
-                        <span class="item-product-content-price">
-                            <strong>$30.00</strong>
-                        </span>
-                    </div>
+              
                 </div>
-          
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Centrum For Men Both.png" alt="">
-                    </a>
+                <div class="item-product">
+                    <div class="item-product-image">
+                        <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Orgen Osteo Care.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Jarrow Formulas</a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Methylcobalamin <br> </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price"><strong>$30.00</strong></span>
+                        </div>
+                    </div>
+              
                 </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Natural Factors Vitamin C</a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Blueberry Rasp...  <br> </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Orgen Osteo Care.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Jarrow Formulas</a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Methylcobalamin <br> </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-
-
-        </div>
-        <div class="list_product">
-            <div class="item-product">
+                <div class="item-product">
                     <div class="item-product-image">
                        <a href="#">
                         <img class="img-product" src="assets/image/img/products/Natures Bounty Biotin.png" alt="">
                        </a>
                     </div>
-                <div class="item-product-content">
+                  <div class="item-product-content">
                     <div class="item-product-infor-name">
                         <a class="item-product-content-name">Nature's Bounty Biotin</a>
                     </div>
@@ -542,165 +719,159 @@
                         <span class="item-product-content-price"><strong>$30.00</strong></span>
                     </div>
                 </div>
-          
-            </div>
-            <div class="item-product">
-                <div class="item-product-image">
-                   <a href="#">
-                    <img class="img-product" src="assets/image/img/products/Best Colon Detox Formula.png" alt="">
-                   </a>
+            
+            
+            
                 </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Best Colon Detox Formula  </a>
+                <div class="item-product">
+                    <div class="item-product-image">
+                       <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Centrum For Women.png" alt="">
+                        </a>
                     </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Advanced Colon</a>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Nature's Bounty Biotin</a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">10000 MCG <br> </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price"><strong>$30.00</strong></span>
+                        </div>
                     </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price-del">
-                            <del>$35.00</del>
-                        </span>
-                        <span class="item-product-content-price">
-                            <strong>$30.00</strong>
-                        </span>
-                    </div>
+              
                 </div>
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Natural Factors Vitamin C.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Natural Factors Vitamin C </a>
+                <div class="item-product">
+                    <div class="item-product-image">
+                       <a href="#">
+                        <img class="img-product" src="assets/image/img/products/Best Colon Detox Formula.png" alt="">
+                       </a>
                     </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Blueberry Rasp </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Jarrow Formulas.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Jarrow Formulas  </a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Methylcobalamin </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Best Colon Detox Formula  </a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Advanced Colon</a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price-del">
+                                <del>$35.00</del>
+                            </span>
+                            <span class="item-product-content-price">
+                                <strong>$30.00</strong>
+                            </span>
+                        </div>
                     </div>
                 </div>
-          
-            </div>
-            <div class="item-product">
-                <div class="item-product-image">
-                   <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Centrum For Women.png" alt="">
-                    </a>
+                <div class="item-product">
+                    <div class="item-product-image">
+                        <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Centrum Silver For Men Box.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Best Colon Detox Formula </a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Advanced Colon... <br> </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price-del">
+                                <del>$35.00</del>
+                            </span>
+                            <span class="item-product-content-price">
+                                <strong>$30.00</strong>
+                            </span>
+                        </div>
+                    </div>
+              
                 </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Nature's Bounty Biotin</a>
+                <div class="item-product">
+                    <div class="item-product-image">
+                        <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Natural Factors Vitamin C.png" alt="">
+                        </a>
                     </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">10000 MCG <br> </a>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Natural Factors Vitamin C </a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Blueberry Rasp </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price"><strong>$30.00</strong></span>
+                        </div>
                     </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
+              
                 </div>
-          
-            </div>
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Centrum Silver For Men Box.png" alt="">
-                    </a>
+                <div class="item-product">
+                    <div class="item-product-image">
+                        <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Centrum For Men Both.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Natural Factors Vitamin C</a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Blueberry Rasp...  <br> </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price"><strong>$30.00</strong></span>
+                        </div>
+                    </div>
+              
                 </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Best Colon Detox Formula </a>
+                <div class="item-product">
+                    <div class="item-product-image">
+                        <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Jarrow Formulas.png" alt="">
+                        </a>
                     </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Advanced Colon... <br> </a>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Jarrow Formulas  </a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Methylcobalamin </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price"><strong>$30.00</strong></span>
+                        </div>
                     </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price-del">
-                            <del>$35.00</del>
-                        </span>
-                        <span class="item-product-content-price">
-                            <strong>$30.00</strong>
-                        </span>
-                    </div>
+              
                 </div>
-          
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Centrum For Men Both.png" alt="">
-                    </a>
+                <div class="item-product">
+                    <div class="item-product-image">
+                        <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Orgen Osteo Care.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Jarrow Formulas</a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Methylcobalamin <br> </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price"><strong>$30.00</strong></span>
+                        </div>
+                    </div>
+              
                 </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Natural Factors Vitamin C</a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Blueberry Rasp...  <br> </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Orgen Osteo Care.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Jarrow Formulas</a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Methylcobalamin <br> </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-
-
-        </div>
-        <div class="list_product">
-            <div class="item-product">
+                <div class="item-product">
                     <div class="item-product-image">
                        <a href="#">
                         <img class="img-product" src="assets/image/img/products/Natures Bounty Biotin.png" alt="">
                        </a>
                     </div>
-                <div class="item-product-content">
+                  <div class="item-product-content">
                     <div class="item-product-infor-name">
                         <a class="item-product-content-name">Nature's Bounty Biotin</a>
                     </div>
@@ -711,328 +882,156 @@
                         <span class="item-product-content-price"><strong>$30.00</strong></span>
                     </div>
                 </div>
-          
-            </div>
-            <div class="item-product">
-                <div class="item-product-image">
-                   <a href="#">
-                    <img class="img-product" src="assets/image/img/products/Best Colon Detox Formula.png" alt="">
-                   </a>
+            
+            
+            
                 </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Best Colon Detox Formula  </a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Advanced Colon</a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price-del">
-                            <del>$35.00</del>
-                        </span>
-                        <span class="item-product-content-price">
-                            <strong>$30.00</strong>
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Natural Factors Vitamin C.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Natural Factors Vitamin C </a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Blueberry Rasp </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Jarrow Formulas.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Jarrow Formulas  </a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Methylcobalamin </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-            <div class="item-product">
-                <div class="item-product-image">
-                   <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Centrum For Women.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Nature's Bounty Biotin</a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">10000 MCG <br> </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Centrum Silver For Men Box.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Best Colon Detox Formula </a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Advanced Colon... <br> </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price-del">
-                            <del>$35.00</del>
-                        </span>
-                        <span class="item-product-content-price">
-                            <strong>$30.00</strong>
-                        </span>
-                    </div>
-                </div>
-          
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Centrum For Men Both.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Natural Factors Vitamin C</a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Blueberry Rasp...  <br> </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Orgen Osteo Care.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Jarrow Formulas</a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Methylcobalamin <br> </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-
-
-        </div>
-        <div class="list_product">
-            <div class="item-product">
+                <div class="item-product">
                     <div class="item-product-image">
                        <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Natures Bounty Biotin.png" alt="">
+                            <img class="img-product" src="assets/image/img/products/Centrum For Women.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Nature's Bounty Biotin</a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">10000 MCG <br> </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price"><strong>$30.00</strong></span>
+                        </div>
+                    </div>
+              
+                </div>
+                <div class="item-product">
+                    <div class="item-product-image">
+                       <a href="#">
+                        <img class="img-product" src="assets/image/img/products/Best Colon Detox Formula.png" alt="">
                        </a>
                     </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Nature's Bounty Biotin</a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">10000 MCG <br> </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Best Colon Detox Formula  </a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Advanced Colon</a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price-del">
+                                <del>$35.00</del>
+                            </span>
+                            <span class="item-product-content-price">
+                                <strong>$30.00</strong>
+                            </span>
+                        </div>
                     </div>
                 </div>
-          
+                <div class="item-product">
+                    <div class="item-product-image">
+                        <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Centrum Silver For Men Box.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Best Colon Detox Formula </a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Advanced Colon... <br> </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price-del">
+                                <del>$35.00</del>
+                            </span>
+                            <span class="item-product-content-price">
+                                <strong>$30.00</strong>
+                            </span>
+                        </div>
+                    </div>
+              
+                </div>
+                <div class="item-product">
+                    <div class="item-product-image">
+                        <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Natural Factors Vitamin C.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Natural Factors Vitamin C </a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Blueberry Rasp </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price"><strong>$30.00</strong></span>
+                        </div>
+                    </div>
+              
+                </div>
+                <div class="item-product">
+                    <div class="item-product-image">
+                        <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Centrum For Men Both.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Natural Factors Vitamin C</a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Blueberry Rasp...  <br> </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price"><strong>$30.00</strong></span>
+                        </div>
+                    </div>
+              
+                </div>
+                <div class="item-product">
+                    <div class="item-product-image">
+                        <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Jarrow Formulas.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Jarrow Formulas  </a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Methylcobalamin </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price"><strong>$30.00</strong></span>
+                        </div>
+                    </div>
+              
+                </div>
+                <div class="item-product">
+                    <div class="item-product-image">
+                        <a href="#">
+                            <img class="img-product" src="assets/image/img/products/Orgen Osteo Care.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-product-content">
+                        <div class="item-product-infor-name">
+                            <a class="item-product-content-name">Jarrow Formulas</a>
+                        </div>
+                        <div class="item-product-infor__infor">
+                            <a class="item-product-content-infor">Methylcobalamin <br> </a>
+                        </div>
+                        <div class="item-product-infor_price">
+                            <span class="item-product-content-price"><strong>$30.00</strong></span>
+                        </div>
+                    </div>
+              
+                </div>
             </div>
-            <div class="item-product">
-                <div class="item-product-image">
-                   <a href="#">
-                    <img class="img-product" src="assets/image/img/products/Best Colon Detox Formula.png" alt="">
-                   </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Best Colon Detox Formula  </a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Advanced Colon</a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price-del">
-                            <del>$35.00</del>
-                        </span>
-                        <span class="item-product-content-price">
-                            <strong>$30.00</strong>
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Natural Factors Vitamin C.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Natural Factors Vitamin C </a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Blueberry Rasp </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Jarrow Formulas.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Jarrow Formulas  </a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Methylcobalamin </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-            <div class="item-product">
-                <div class="item-product-image">
-                   <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Centrum For Women.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Nature's Bounty Biotin</a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">10000 MCG <br> </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Centrum Silver For Men Box.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Best Colon Detox Formula </a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Advanced Colon... <br> </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price-del">
-                            <del>$35.00</del>
-                        </span>
-                        <span class="item-product-content-price">
-                            <strong>$30.00</strong>
-                        </span>
-                    </div>
-                </div>
-          
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Centrum For Men Both.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Natural Factors Vitamin C</a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Blueberry Rasp...  <br> </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-
-            <div class="item-product">
-                <div class="item-product-image">
-                    <a href="#">
-                        <img class="img-product" src="assets/image/img/products/Orgen Osteo Care.png" alt="">
-                    </a>
-                </div>
-                <div class="item-product-content">
-                    <div class="item-product-infor-name">
-                        <a class="item-product-content-name">Jarrow Formulas</a>
-                    </div>
-                    <div class="item-product-infor__infor">
-                        <a class="item-product-content-infor">Methylcobalamin <br> </a>
-                    </div>
-                    <div class="item-product-infor_price">
-                        <span class="item-product-content-price"><strong>$30.00</strong></span>
-                    </div>
-                </div>
-          
-            </div>
-
-
         </div>
     </div>
-    </div>
+</div>
 <!------------------------- new  ------------------------->
 <div class="new">
     <div class="container">
@@ -1142,7 +1141,7 @@
         </div>
     </div>
 </div>
-<!-- footer  -->
+<!-- ------------------------Footer---------------------  -->
 <div onclick="tam()" class="footer">
     <div class="footer-top">
         <div class="container">
@@ -1254,18 +1253,23 @@
 
 
 
-
     <script type="text/javascript">
         $(document).on('ready', function() {
-            $(".regular").slick({
-                dots: true,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                // autoplay: true,
-                // autoplaySpeed: 2000,
-                responsive: [
+            $('.slick-product').slick({
+		rows: 2,
+		dots: false,
+		arrows: true,
+		infinite: true,
+		// speed: 300,
+		slidesToShow: 4,
+		slidesToScroll: 4,
+        prevArrow: null,
+        nextArrow: null,
+        prevArrow:
+            "<button type='button' class='slick-prev pull-left'><i class='ti-angle-left' aria-hidden='true'></i></button>",
+        nextArrow:
+            "<button type='button' class='slick-next pull-right'><i class='ti-angle-right' aria-hidden='true'></i></button>",
+        responsive: [
                 {
                     breakpoint: 1024,
                     settings: {
@@ -1302,26 +1306,24 @@
                 // settings: "unslick"
                 // instead of a settings object
                 ]
-                
-            });
-        });
-    </script>
-    <script type="text/javascript">
-        $(document).on('ready', function() {
-            $(".list_product").slick({
-                dots: true,
+});
+            $(".regular").slick({
+                prevArrow: null,
+                nextArrow: null,
+                // dots: true,
                 infinite: false,
                 speed: 300,
-                slidesToShow: 4,
-                slidesToScroll: 4,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+
                 // autoplay: true,
-                // autoplaySpeed: 2000,
+                autoplaySpeed: 2000,
                 responsive: [
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 4,
-                        slidesToScroll: 4,
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
                         infinite: true,
                         dots: false
                     }
@@ -1338,15 +1340,15 @@
                 {
                     breakpoint: 600,
                     settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToShow: 2,
+                        slidesToScroll: 2
                     }
                 },
                 {
                     breakpoint: 480,
                     settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToShow: 2,
+                        slidesToScroll: 2
                     }
                 }
                 // You can unslick at a given breakpoint now by adding:
@@ -1357,6 +1359,7 @@
             });
         });
     </script>
+
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 </html>
