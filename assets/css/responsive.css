@@ -155,7 +155,7 @@
 
     }
     .top-selling-header-none{
-        margin-left: -6px;
+        margin-left: -4px;
 
     }
     .header-top-t{
@@ -1021,6 +1021,10 @@
     }
 }
 @media (max-width: 376px){
+    .item-product-image{
+        width: 70%;
+        margin-left: 49px;
+    }
     .list-product button.slick-prev {
         right: 34px;
     }
@@ -1189,7 +1193,7 @@
         padding: 0;
     }
     .footer-top-content{
-        margin-left: 44px;
+        margin-left: 25px;
 
     }
     .categories-footer, .quick-link, .company-footer, .contact-us-footer {
