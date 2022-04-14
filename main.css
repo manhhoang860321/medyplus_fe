@@ -370,6 +370,10 @@ img-fluid{
     font-weight: 500;
     font-size: 14px;
 }
+.header__navbar-nav-item:hover a{
+    color: #000;
+
+}
 .header__navbar-nav-item-link{
     color: var(--white-color);
 }
@@ -437,7 +441,7 @@ img-fluid{
     /* height: 500px; */
     width: 100%;
     height: 750px;
-    object-fit: cover;
+    object-fit: contain;
 }
 .container-fade{
     max-width: 1140px;
@@ -480,6 +484,21 @@ img-fluid{
     position: absolute;
     top: 168px;
     left: unset;
+    letter-spacing: 0.5px;
+    line-height: 3;
+}
+.slider-content__content2{
+    position: absolute;
+    top: 204px;
+    left: 238px;
+    letter-spacing: 0.5px;
+    line-height: 3;
+}
+.slider-content__content3{
+    display: none;
+    position: absolute;
+    top: 300px;
+    left: 395px;
     letter-spacing: 0.5px;
     line-height: 3;
 }
@@ -734,31 +753,35 @@ img-fluid{
     margin: 0 auto;
 }
 .banner-container{
+    margin: 0 15px;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
+    
+
 }
 .banner-container-left{
-    flex: 0 0 58.3%;
-    max-width: 58.3%;
+    width: 57%;
+
 }
 .banner-container-right{
-    flex: 0 0 41.7%;
-    max-width: 41.7%;
+    height: 510px;
+    max-width: 43%;
 }
 .banner-container-left-item{
     background-color: #f0f0f0;
     padding-top: 38px;
     padding-bottom: 101px;
     text-align: center;
-    max-width: 654px;
     width: 100%;
     position: relative;
 }
 .banner-container-top{
     background-color: #f0f0f0;
-    max-width: 457px;
+    max-width: 94%;
+    height: 47%;
     width: 100%;
-    height: 240px;
     float: right;
     position: relative;
     display: flex;
@@ -770,9 +793,10 @@ img-fluid{
 }
 .banner-container-bottom{
     background-color: #f0f0f0;
-    max-width: 457px;
+    max-width: 94%;
+    height: 47%;
+
     width: 100%;
-    height: 240px;
     margin-top: 30px;
     float: right;
     position: relative;
@@ -945,7 +969,8 @@ img-fluid{
     color: #000;
     margin: 0;
     padding: 0;
-    margin-left: 5px;
+    margin-left: 15px;
+
 }
 /* product  */
 .list-product{
