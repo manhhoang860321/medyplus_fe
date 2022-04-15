@@ -1,4 +1,8 @@
 @media(max-width: 2560px) {
+    .contact-us-footer{
+        padding-left: 84px;
+
+    }
     .top-selling-header-block{
         margin-left: 5px;
 
@@ -336,6 +340,10 @@
     } */
 }
 @media (max-width: 1025px){
+    .contact-us-footer{
+        padding-left: unset;
+
+    }
     .slider-content__content2{
         position: absolute;
         top: 50%;
