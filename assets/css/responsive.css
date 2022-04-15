@@ -631,6 +631,7 @@
     }
     .banner-container-left-item img{
         width: 100%;
+        object-fit: inherit;
     }
     .banner-container-top{
         height: 48%;
@@ -1136,7 +1137,7 @@
         /* left: -20px; */
         }
     .img-new img {
-        width: 92%;
+        width: 96%;
         }
     .search{
         display: grid;
