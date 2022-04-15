@@ -1075,6 +1075,7 @@ img-fluid{
     color: var(--primary-color);
 }
 .item-product-content-price-del{
+    text-decoration: line-through;
     font-size: 13px;
     font-size: #696969;
 }
