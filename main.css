@@ -733,6 +733,7 @@ img-fluid{
     padding-bottom: 46px;
 }
 .fact-item-text{
+    margin: 0;
     font-size: 16px;
     color: #000;
     font-weight: 500;
